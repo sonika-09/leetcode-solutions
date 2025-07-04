@@ -6,7 +6,7 @@ This repository documents my journey through solving problems, strengthening my 
 ---
 ## About
 
-- Practicing Data Structures & Algorithms in C (and Python soon!)
+- Practicing Data Structures & Algorithms in C and Python
 - Solving problems from the NeetCode 150 roadmap
 - Tracking my growth over time
 

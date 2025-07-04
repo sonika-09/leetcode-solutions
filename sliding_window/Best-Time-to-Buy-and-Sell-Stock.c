@@ -3,7 +3,7 @@
 int maxProfit(int* prices, int pricesSize) {
     int min=prices[0], profit, max_profit=0;
     for(int i=0; i<pricesSize; i++) {
-        if(prices[i] < min)
+        if(prices[i] < min)    //we check for the minimum element up till this point
             min = prices[i];
         profit = prices[i] - min;
         if(profit > max_profit) {
@@ -13,6 +13,7 @@ int maxProfit(int* prices, int pricesSize) {
     return max_profit;
 }
 
+//Had multiple tries before my solution was accepted, so here are all the rejected ones
 //solution 2 - TLE!
 int maxProfit(int* prices, int pricesSize) {
     int i=0, j, max_profit=0, profit;
